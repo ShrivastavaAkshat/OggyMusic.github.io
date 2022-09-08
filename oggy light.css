@@ -1,0 +1,88 @@
+
+
+
+.navbar .navbar-brand {
+    
+    font-weight: bolder;
+    font: size 1.3em;
+}
+.navbar .navbar-nav{
+    margin: 0 auto;
+}
+.head1{
+    padding-left: 31vh;
+    font-family: cursive;
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background: linear-gradient(to right, #000000, #151516);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+  }
+    .icons{
+        margin-top: 14px; 
+    }
+    .icons i{
+        cursor: pointer;
+    }
+    
+    #myProgressBar{
+        width: 80vw; 
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+    }
+    .middle{
+        float: left;
+    }
+    .musicItemContainer{
+        margin-top: 74px;
+    }
+    #masterPlay{
+	border: none;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;	
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: none;
+	transition: 0.5s;
+	background: rgb(255, 255, 255);
+    }
+    #next{
+	border: none;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;	
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: none;
+	transition: 0.5s;
+	background: rgb(56, 252, 186);
+    }
+    #previous{
+	border: none;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;	
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: none;
+	transition: 0.5s;
+	background: rgb(56, 252, 186);
+    }
+
+
+
+    
